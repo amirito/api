@@ -265,6 +265,13 @@ p{
     color: #ffffff;
 }
 
+.download{
+    text-align: center;
+    margin-top: 25px;
+}
+.download a:hover{
+    text-decoration: none;
+}
 .social-share{
     text-align: center;
     padding-top: 50px;
