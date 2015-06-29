@@ -68,6 +68,7 @@ $(document).ready(function() {
         $('.navigation-side').removeClass('open-side');
         $('.navigation-side').addClass('close-side');
         $('.main-content').addClass('menu-space');
+        $('.menu-button').addClass('button-show');
     } else {
         side_flag = true;
         $('.menu-icon i').removeClass('fa-plus-circle');

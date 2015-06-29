@@ -101,7 +101,7 @@ p{
     transition: all .2s;
     padding: 10px;
     background-color: #fff;
-    padding-top: 55px;
+    padding-top: 85px;
 }
 
 
@@ -140,7 +140,7 @@ p{
     -ms-transition: all .5s;
     -o-transition: all .5s;
     transition: all .5s;
-    font-size: 18px;
+    font-size: 16px;
 }
 .menu-button a i{
     font-size: 16px;
@@ -160,7 +160,8 @@ p{
         padding-right: 10px ;
     }
     .main-content{
-        padding: 0;
+        padding: 100px 0 0 0;
+        width: 100%;
     }
     .navbar-nav li{
         float: none;
@@ -168,13 +169,16 @@ p{
     .nav{
         padding-right: 10px ;
     }
+    .open-side{
+        width: 100%;
+        background-color: #f5f5f5;
+    }
 }
 .menu-icon{
     padding: 5px 35px 5px 5px;
     cursor: pointer;
-    font-size: 30px;
+    font-size: 22px;
     color: #3677ad;
-
 }
 
 .tip {
@@ -195,7 +199,6 @@ p{
 .navigation-list{
     list-style-type: none;
     margin-left: 1px;
-    margin-top: 10%;
     z-index: 0;
     direction: rtl;
     margin-right: 10px;
@@ -213,6 +216,9 @@ p{
 .parent li{
     font-weight: normal;
     list-style-type: none;
+}
+.child-list{
+    padding-right: 0;
 }
 .child-list li a{
     color: #204056;
@@ -256,7 +262,6 @@ p{
     -moz-transform: rotate(-45deg);
     -o-transform: rotate(-45deg);
     -ms-transform: rotate(-45deg);
-
     transition:All .5s ;
     -webkit-transition:All .5s ;
     -moz-transition:All .5s ;
